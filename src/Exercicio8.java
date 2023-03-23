@@ -28,5 +28,14 @@ public class Exercicio8 {
 
         System.out.printf("Resultado da divisao com 3 casas decimais = %.3f %n", (numero3 + numero4)/2f);
 
+        //solicitar ao usuário 2 valores inteiros e imprimir na tela o resultado da divisão de um pelo outro com 4 casas decimais
+
+        System.out.println("Digite um numero inteiro: ");
+        int numero5 = input.nextInt();
+
+        System.out.println("Digite outro numero inteiro: ");
+        int numero6 = input.nextInt();
+
+        System.out.printf("Resultado da divisao com 4 casas decimais = %.4f %n", (numero3 + numero4)/2f);
     }
 }
